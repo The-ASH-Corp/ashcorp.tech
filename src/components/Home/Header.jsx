@@ -1,6 +1,7 @@
 import { Parallax } from "react-parallax"
-import HeaderBackground from '../assets/images/rsz_1o-smiling-students-facebook_800.jpg'
-import NavBar from './NavBar'
+import HeaderBackground from '../../assets/images/rsz_1o-smiling-students-facebook_800.jpg'
+import NavBar from "../NavBar"
+
 function Header() {
   return (
     <div className="w-full h-screen">
