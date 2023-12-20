@@ -1,5 +1,7 @@
 import { MenuUnfoldOutlined } from "@ant-design/icons";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+
 
 function NavBar() {
   const [windowsScreen, setWindowsScreen] = useState(window.innerWidth);
@@ -20,11 +22,13 @@ function NavBar() {
   return (
     <header className="w-full h-[80px]  relative">
       <div className="w-[97%] md:w-[80%] mx-auto h-full  flex justify-between items-center ">
-        <div className=" h-full items-center flex ">icon</div>
+        <div className=" h-full items-center flex ">
+          <img src="" alt="" />
+        </div>
 
         <MenuItems windowsScreen={windowsScreen} navToggle={navToggle} />
         <div className=" h-full flex md:hidden items-center justify-end pl-0 ">
-          <MenuUnfoldOutlined className="text-white text-2xl font-bold items-center flex p-2 rounded-[5px] mr-4 bg-rose-800" onClick={toggling} />
+          <MenuUnfoldOutlined className={`${navToggle ? 'border border-white ' :''} text-white text-2xl font-bold items-center flex p-2 rounded-[5px] mr-4 bg-gradient-to-br from-violet-800 to-pink-800`} onClick={toggling} />
         </div>
       </div>
     </header>
@@ -35,20 +39,20 @@ export default NavBar;
 
 const MenuItems = ({windowsScreen,navToggle}) => {
   return (
-    <ul className={` ${windowsScreen<768 ? 'absolute bg-white w-full' : ''} ${navToggle ? 'block' :'hidden'}  md:flex md:flex-row items-center md:space-x-7    right-0 top-[80px] h-fit py-5`}  >
-      <li className="list-none md:font-thin md:text-white md:border-white md:border-none  border-b pl-2 py-2 md:pl-0 md:py-0 font-semibold ">
-        <a href="">Home</a>
+    <ul className={` ${windowsScreen<768 ? 'absolute bg-white w-full' : ''} ${navToggle ? 'block ' :'hidden'}  md:flex md:flex-row items-center md:space-x-7    right-0 top-[80px] h-fit py-5`}  >
+      <li className="list-none  md:text-white md:border-white md:border-none  border-b pl-2 py-2 md:pl-0 md:py-0 font-semibold ">
+        <Link to="/">Home</Link>
       </li>
-      <li className="list-none md:font-thin md:text-white md:border-white md:border-none  border-b pl-2 py-2 md:pl-0 md:py-0 font-semibold ">
-        <a href="">About Us</a>
+      <li className="list-none  md:text-white md:border-white md:border-none  border-b pl-2 py-2 md:pl-0 md:py-0 font-semibold ">
+        <Link to="/about">About Us</Link>
       </li>
-      <li className="list-none md:font-thin md:text-white md:border-white md:border-none  border-b pl-2 py-2 md:pl-0 md:py-0 font-semibold ">
-        <a href="">Courses</a>
+      <li className="list-none  md:text-white md:border-white md:border-none  border-b pl-2 py-2 md:pl-0 md:py-0 font-semibold ">
+        <Link to="/courses">Courses</Link>
       </li>
-      <li className="list-none md:font-thin md:text-white md:border-white md:border-none  border-b pl-2 py-2 md:pl-0 md:py-0 font-semibold ">
-        <a href="">Contact</a>
+      <li className="list-none  md:text-white md:border-white md:border-none  border-b pl-2 py-2 md:pl-0 md:py-0 font-semibold ">
+        <Link to="/contact">Contact</Link>
       </li>
-      <button className="md:text-white font-semibold bg-rose-900 py-2 px-6 rounded-[20px] hidden md:block">
+      <button className="md:text-white font-semibold bg-gradient-to-br from-violet-800 to-pink-800 py-2 px-6 rounded-[20px] hidden md:block">
         Start Learning
       </button>
     </ul>
