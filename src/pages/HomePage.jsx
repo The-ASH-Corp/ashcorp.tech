@@ -11,6 +11,7 @@ import PopularCourses from "../components/Home/PopularCourses";
 import HomeCourse from "../components/Home/HomeCourse";
 import ThreeCourse from "../components/Home/ThreeCourse";
 import Footer from "../components/Footer";
+import Feature from "../components/Home/Feature";
 
 export default function HomePage() {
   return (
@@ -53,6 +54,7 @@ export default function HomePage() {
       <PopularCourses />
       <HomeCourse />
       <ThreeCourse />
+      <Feature/>
       <Footer />
     </div>
   );

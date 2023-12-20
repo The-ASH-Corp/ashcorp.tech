@@ -1,8 +1,9 @@
+import AboutHeader from "../components/About/AboutHeader"
 
 
 function AboutPage() {
   return (
-    <div>AboutPage</div>
+    <AboutHeader/>
   )
 }
 
