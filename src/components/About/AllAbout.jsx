@@ -1,7 +1,7 @@
 
 function AllAbout() {
   return (
-    <div className="md:flex block md:w-[80%] mx-auto w-[90%] mb-16 space-x-5">
+    <div className="md:flex block md:w-[80%] mx-auto w-[90%] my-16 space-x-5">
         <div className="md:w-[30%]">
             <h1 className="font-bold text-[40px]">What We're All About</h1>
         </div>

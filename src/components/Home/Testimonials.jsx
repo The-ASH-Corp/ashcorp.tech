@@ -1,5 +1,5 @@
 import { StarFilled} from '@ant-design/icons'
-import FaceImage from "../../assets/images/face-images/face_image.avif" 
+import FaceImage from "../../assets/images/face-images/online-programming-course-review-01.jpg" 
 
 function Testimonials() {
   return (
