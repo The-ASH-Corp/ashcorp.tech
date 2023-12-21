@@ -1,7 +1,12 @@
+import Footer from "../components/Footer"
+import ContactHeader from "../components/contact/ContactHeader"
 
 function ContactPage() {
   return (
-    <div>ContactPage</div>
+    <div>
+      <ContactHeader/>
+      <Footer/>
+    </div>
   )
 }
 

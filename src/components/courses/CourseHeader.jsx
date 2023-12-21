@@ -1,8 +1,8 @@
 import { Parallax } from "react-parallax";
-import HeaderBackground from "../../assets/bg_img/laptop_desk_img.jpeg";
+import HeaderBackground from "../../assets/bg_img/man_with_lap.webp";
 import NavBar from "../NavBar";
 
-function AboutHeader() {
+function CourseHeader() {
   return (
     <div className="w-full h-auto pb-10">
       <div className="w-full h-[400px] md:h-[400px] rounded-br-[150px] overflow-hidden ">
@@ -14,7 +14,7 @@ function AboutHeader() {
                 
                 <div className="mb-10">
                   <h1 className="font-bold text-5xl md:text-7xl text-white">
-                    About Us
+                    All Courses
                   </h1>
                   
                 </div>
@@ -36,4 +36,4 @@ function AboutHeader() {
   );
 }
 
-export default AboutHeader;
+export default CourseHeader;

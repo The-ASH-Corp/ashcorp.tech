@@ -1,7 +1,12 @@
+import Footer from "../components/Footer"
+import CourseHeader from "../components/courses/CourseHeader"
 
 function CoursePage() {
   return (
-    <div>CoursePage</div>
+    <div>
+      <CourseHeader/>
+      <Footer/>
+    </div>
   )
 }
 
