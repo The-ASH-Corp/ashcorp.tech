@@ -9,10 +9,10 @@ function Founder() {
       <div className="flex flex-col items-start space-x-5 pl-[20px]">
         <h1 className="font-bold text-[40px] ml-5">Learn Something <br /> Every Day</h1>
         <div className="flex space-x-1 my-[20px]">
-          <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
-          <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
-          <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
-          <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
+          <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
+          <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
+          <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
+          <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
         </div>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta distinctio similique est mollitia itaque, earum eos rerum consequuntur quidem maxime, doloribus, quibusdam sint deserunt nobis illum consequatur eveniet cupiditate alias?</p>
       <h1 className="font-bold my-[10px] text-[20px]">

@@ -2,12 +2,42 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
-import { BrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import HomePage from "./pages/HomePage.jsx";
+import AboutPage from "./pages/AboutPage.jsx";
+import ContactPage from "./pages/ContactPage"
+import CoursePage from "./pages/CoursePage.jsx"
+
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element:<App />,
+    children: [
+      {
+        path:'/',
+        element:<HomePage />
+      },
+      {
+        path:'/about',
+        element:<AboutPage />
+      },
+      {
+        path:'/contact',
+        element:<ContactPage/>
+      },
+      {
+        path:'/courses',
+        element:<CoursePage/>
+      },
+    ]
+  }
+]) 
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+   
+<RouterProvider router={router} />
+  
   </React.StrictMode>
 );

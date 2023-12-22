@@ -11,10 +11,10 @@ function Career() {
           <div className="grid grid-flow-row grid-cols-1 sm:grid-cols-3 w-[100%] md:w-[70%] py-[50px]">
             <div className="px-[10px]">
               <div className="flex space-x-1 mb-[10px]">
-                <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
-                <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
-                <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
-                <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
+                <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
+                <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
+                <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
+                <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
               </div>
               <h1 className="text-black text-[20px] font-bold mb-[5px]">
                 Education
@@ -26,10 +26,10 @@ function Career() {
             </div>
             <div className="px-[10px]">
               <div className="flex space-x-1 mb-[10px]">
-                <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
-                <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
-                <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
-                <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
+                <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
+                <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
+                <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
+                <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
               </div>
               <h1 className="text-black text-[20px] font-bold mb-[5px]">
                 Education
@@ -41,10 +41,10 @@ function Career() {
             </div>
             <div className="px-[10px]">
               <div className="flex space-x-1 mb-[10px]">
-                <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
-                <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
-                <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
-                <div className="w-[15px] h-[7px] bg-gradient-to-br from-violet-800 to-rose-800 skew-x-[-45deg]"></div>
+                <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
+                <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
+                <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
+                <div className="w-[15px] h-[7px] bg-[#d326ed] skew-x-[-45deg]"></div>
               </div>
               <h1 className="text-black text-[20px] font-bold mb-[5px]">
                 Education
@@ -61,7 +61,7 @@ function Career() {
                 <h1 className="font-semibold text-[30px] my-[5px]">Boost Your Career by Learning Skills in High Demand</h1>
 
                 <Link to={'/courses'}>
-                    <button className="bg-gradient-to-br from-violet-800 to-rose-800 py-[5px] px-[10px] flex space-x-1 text-[15px] text-white items-center rounded-[20px]">
+                    <button className="bg-[#d326ed] py-[5px] px-[10px] flex space-x-1 text-[15px] text-white items-center rounded-[20px]">
                         <CaretRightFilled className="text-white"/>
                         GET STARTED
                     </button>

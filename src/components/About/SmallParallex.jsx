@@ -8,13 +8,13 @@ import {
 
 function SmallParallex() {
   return (
-    <div className="w-full">
+    <div className="w-full mt-[100px]">
       <Parallax strength={400} speed={-10} bgImage={BackgroudImg}>
         <div className="w-full bg-black bg-opacity-[0.5]">
           <div className="w-[90%] md:w-[80%] mx-auto grid grid-flow-row grid-cols-1 md:grid-cols-3 py-[60px]">
             <div className="flex">
               <div className="pt-[10px]">
-                <BulbFilled className="text-white bg-gradient-to-br from-violet-800 to-rose-800 text-[15px] p-[10px] rounded-[50%]"/>
+                <BulbFilled className="text-white bg-[#d326ed] text-[15px] p-[10px] rounded-[50%]"/>
               </div>
               <div className="px-[25px]">
                 <h1 className="text-white font-bold text-[25px]">Learn From Industry Leaders</h1>
@@ -27,7 +27,7 @@ function SmallParallex() {
             </div>
             <div className="flex">
               <div className="pt-[10px]">
-                <ClockCircleFilled className="text-white bg-gradient-to-br from-violet-800 to-rose-800 text-[15px] p-[10px] rounded-[50%]"/>
+                <ClockCircleFilled className="text-white bg-[#d326ed] text-[15px] p-[10px] rounded-[50%]"/>
               </div>
               <div className="px-[25px]">
                 <h1 className="text-white font-bold text-[25px]">Learn at Your Own Pace</h1>
@@ -40,7 +40,7 @@ function SmallParallex() {
             </div>
             <div className="flex">
               <div className="pt-[10px]">
-                <FileTextFilled className="text-white bg-gradient-to-br from-violet-800 to-rose-800 text-[15px] p-[10px] rounded-[50%]"/>
+                <FileTextFilled className="text-white bg-[#d326ed] text-[15px] p-[10px] rounded-[50%]"/>
               </div>
               <div className="px-[25px]">
                 <h1 className="text-white font-bold text-[25px]">Professional Certification</h1>

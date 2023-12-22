@@ -1,20 +1,23 @@
 import { Parallax } from "react-parallax";
 import HeaderBackground from "../../assets/bg_img/about_img.jpg";
-import NavBar from "../NavBar";
+import { motion } from "framer-motion";
 
 function ContactHeader() {
   return (
     <div className="w-full h-auto pb-10">
       <div className="w-full h-[400px] md:h-[400px] rounded-br-[150px] overflow-hidden ">
         <Parallax strength={400} speed={-10} bgImage={HeaderBackground}>
-          <div className="w-full h-[400px] md:h-[400px] bg-violet-800 bg-opacity-40">
-            <NavBar />
+          <div className="w-full h-[400px] md:h-[400px] bg-black bg-opacity-40">
+          
             <div className="h-full w-[90%] md:w-[80%] mx-auto flex md:items-center">
-              <div>
+              <motion.div 
+              initial={{ opacity: 0, x: "-100%" }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}>
                 
                 <div className="mb-10">
                   <h1 className="font-bold text-5xl md:text-7xl text-white">
-                    All Courses
+                    Contact Us
                   </h1>
                   
                 </div>
@@ -27,7 +30,7 @@ function ContactHeader() {
                   </p>
                 </div>
                
-              </div>
+              </motion.div>
             </div>
           </div>
         </Parallax>

@@ -1,18 +1,45 @@
-import AboutPage from "./pages/AboutPage"
-import ContactPage from "./pages/ContactPage"
-import CoursePage from "./pages/CoursePage"
-import HomePage from "./pages/HomePage"
-import {Routes,Route} from "react-router-dom"
+import Footer from "./components/Footer";
+import NavBar from "./components/NavBar";
+import { motion, AnimatePresence } from "framer-motion";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 
 function App() {
+  const location = useLocation();
+  useEffect(() => {
+    
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
-    <Routes>
-      <Route path="/" element={<HomePage/>} />
-      <Route path="/about" element={<AboutPage/>} />
-      <Route path="/courses" element={<CoursePage/>} />
-      <Route path="/contact" element={<ContactPage/>} />
-    </Routes>
-  )
+    <>
+      <NavBar />
+      <main>
+        <AnimatePresence mode="wait">
+          <motion.div
+            key={location.pathname}
+            initial={{
+             
+              x: '-100vw'
+            }}
+            animate={{
+            
+              x: 0
+            }}
+            exit={{
+              x: '100vw'
+            }}
+            transition={{
+              duration: 0.5,
+            }}
+          >
+            <Outlet />
+          </motion.div>
+        </AnimatePresence>
+      </main>
+      <Footer />
+    </>
+  );
 }
 
-export default App
+export default App;

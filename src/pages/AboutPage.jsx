@@ -3,7 +3,7 @@ import AllAbout from "../components/About/AllAbout";
 import Founder from "../components/About/Founder";
 import SmallParallex from "../components/About/SmallParallex";
 import WhoWeAre from "../components/About/WhoWeAre";
-import Footer from "../components/Footer";
+
 
 function AboutPage() {
   return (
@@ -13,7 +13,7 @@ function AboutPage() {
       <Founder/>
       <WhoWeAre/>
       <SmallParallex/>
-      <Footer />
+      
     </div>
   );
 }

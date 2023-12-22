@@ -16,7 +16,7 @@ function Feature() {
       <div className="">
         <div className="flex">
           <div className="px-[10px]">
-            <CaretRightFilled className='bg-gradient-to-br from-violet-800 to-rose-800 text-white p-[5px] rounded-[50%]'/>
+            <CaretRightFilled className='bg-[#d326ed] text-white p-[5px] rounded-[50%]'/>
           </div>
           <div className="">
             <h1 className="text-[20px] font-bold">Best Industry Leaders</h1>
@@ -30,7 +30,7 @@ function Feature() {
         </div>
         <div className="flex">
           <div className="px-[10px]">
-            <CaretRightFilled className='bg-gradient-to-br from-violet-800 to-rose-800 text-white p-[5px] rounded-[50%]'/>
+            <CaretRightFilled className='bg-[#d326ed] text-white p-[5px] rounded-[50%]'/>
           </div>
           <div className="">
             <h1 className="text-[20px] font-bold"> Learn Online at Your Own Pace</h1>
@@ -44,7 +44,7 @@ function Feature() {
         </div>
         <div className="flex">
           <div className="px-[10px]">
-            <CaretRightFilled className='bg-gradient-to-br from-violet-800 to-rose-800 text-white p-[5px] rounded-[50%]'/>
+            <CaretRightFilled className='bg-[#d326ed] text-white p-[5px] rounded-[50%]'/>
           </div>
           <div className="">
             <h1 className="text-[20px] font-bold">Professional Certification</h1>

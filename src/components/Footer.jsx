@@ -19,7 +19,7 @@ function Footer() {
                 className="w-[200px] md:w-[350px] p-2 rounded-[20px] focus:outline-none"
                 placeholder="Enter your email"
               />
-              <button className="py-1 text-white px-6 rounded-[20px] bg-gradient-to-br from-violet-800 to-pink-800">
+              <button className="py-1 text-white px-6 rounded-[20px] bg-[#d326ed]">
                 SUBSCRIBE
               </button>
             </div>

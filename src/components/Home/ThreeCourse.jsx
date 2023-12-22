@@ -2,6 +2,7 @@ import FrontEndImg from "../../assets/images/courseImges/1_i3laWIzy2jaemiCURVPrM
 import BackEndImg from "../../assets/images/courseImges/backend_developer_roles_and_responsibilities-optimized.webp"
 import FullStackImg from "../../assets/images/courseImges/full-stack.webp"
 import { Link } from "react-router-dom"
+import { motion } from "framer-motion";
 
 function ThreeCourse() {
   return (
@@ -13,7 +14,10 @@ function ThreeCourse() {
                 <p className="px-[15px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <Link to={"/courses"}>
                 <div className="w-full flex justify-center md:mt-[35px] my-5">
-                <button className="w-[95%] py-2 bg-gradient-to-br from-violet-800 to-rose-800 text-white rounded-md">see more</button>
+                <motion.button
+                whileHover={{ scale: 0.8 }}
+                transition={{duration:0.5}}
+                className="w-[95%] py-2 bg-[#d326ed] text-white rounded-md">see more</motion.button>
                 </div>
                 </Link>
             </div>
@@ -23,7 +27,10 @@ function ThreeCourse() {
                 <p className="px-[15px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <Link to={"/courses"}>
                 <div className="w-full flex justify-center md:mt-[35px] my-5">
-                <button className="w-[95%] py-2 bg-gradient-to-br from-violet-800 to-rose-800 text-white rounded-md">see more</button>
+                <motion.button
+                whileHover={{ scale: 0.8 }}
+                transition={{duration:0.5}}
+                className="w-[95%] py-2 bg-[#d326ed] text-white rounded-md">see more</motion.button>
                 </div>
                 </Link>
             </div>
@@ -33,7 +40,10 @@ function ThreeCourse() {
                 <p className="px-[15px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 <Link to={"/courses"}>
                 <div className="w-full flex justify-center md:mt-[35px] my-5">
-                <button className="w-[95%] py-2 bg-gradient-to-br from-violet-800 to-rose-800 text-white rounded-md">see more</button>
+                <motion.button
+                whileHover={{ scale: 0.8 }}
+                transition={{duration:0.5}}
+                className="w-[95%] py-2 bg-[#d326ed] text-white rounded-md">see more</motion.button>
                 </div>
                 </Link>
             </div>

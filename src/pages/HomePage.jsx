@@ -9,7 +9,6 @@ import TailwindImg from "../assets/images/programmingIcons/icons8-tailwind-css-4
 import MysqlImg from "../assets/images/programmingIcons/icons8-mysql-480.png";
 import PopularCourses from "../components/Home/PopularCourses";
 import ThreeCourse from "../components/Home/ThreeCourse";
-import Footer from "../components/Footer";
 import Feature from "../components/Home/Feature";
 import Testimonials from "../components/Home/Testimonials";
 import Career from "../components/Home/Career";
@@ -57,7 +56,7 @@ export default function HomePage() {
       <Career/>
       <Feature/>
       <Testimonials/>
-      <Footer />
+
     </div>
   );
 }
