@@ -5,14 +5,16 @@ import SmallParallex from "../components/About/SmallParallex";
 import WhoWeAre from "../components/About/WhoWeAre";
 
 
+
 function AboutPage() {
   return (
-    <div className="">
+    <div className="relative">
       <AboutHeader />
       <AllAbout/>
       <Founder/>
       <WhoWeAre/>
       <SmallParallex/>
+     
       
     </div>
   );

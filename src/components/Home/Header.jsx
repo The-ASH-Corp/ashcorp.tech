@@ -1,6 +1,6 @@
 import { Parallax } from "react-parallax";
 import { PlayCircleFilled } from "@ant-design/icons";
-import HeaderBackground from "../../assets/images/rsz_1o-smiling-students-facebook_800.jpg";
+import HeaderBackground from "../../assets/bg_img/bussinus_img.jpg";
 import { motion } from "framer-motion";
 
 function Header() {
@@ -8,7 +8,7 @@ function Header() {
     <div className="w-full h-auto pb-10">
       <div className="w-full h-[600px] md:h-[700px] rounded-br-[150px] overflow-hidden ">
         <Parallax strength={400} speed={-10} bgImage={HeaderBackground}>
-          <div className="w-full h-[600px] md:h-[700px] bg-black bg-opacity-40">
+          <div className="w-full h-[600px] md:h-[700px] bg-black bg-opacity-40 pt-[60px]">
             <motion.div
               className="h-full w-[90%] md:w-[80%] mx-auto flex md:items-center"
               initial={{ opacity: 0, x: "-100%" }}
@@ -37,7 +37,7 @@ function Header() {
                   </p>
                 </div>
                 <div className="md:mb-10">
-                  <button className="bg-[#d326ed] py-2 text-[15px] text-white px-6 rounded-[20px] hover:border border-white">
+                  <button className="bg-[#d326ed] py-2 text-[15px] text-white px-6 rounded-[20px] hover:bg-black duration-500">
                     START COURSE
                   </button>
                 </div>

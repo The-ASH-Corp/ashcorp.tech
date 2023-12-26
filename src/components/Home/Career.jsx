@@ -1,5 +1,5 @@
 import { Parallax } from "react-parallax";
-import Bg_Img from "../../assets/bg_img/laptop_desk_img.jpeg";
+import Bg_Img from "../../assets/bg_img/man_with_lap.webp";
 import { Link } from "react-router-dom";
 import {CaretRightFilled} from '@ant-design/icons'
 
