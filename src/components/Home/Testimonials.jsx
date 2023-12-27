@@ -32,7 +32,7 @@ function Testimonials() {
         </div>
         <div className="w-full gap-4 grid grid-flow-row grid-cols-1 md:grid-cols-2 mb-5 mt-[70px]">
             <div className="p-[20px]">
-                <div className="relative mt-[50px] bg-[#d326ed] pt-[60px] pb-[30px] px-[30px] rounded-[10px]">
+                <div className="relative mt-[50px] bg-[#d326ed] pt-[60px] pb-[30px] px-[30px] rounded-[10px] hover:bg-black duration-500">
                     <div className="">
                         <p className='font-thin text-white'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, nisi provident reprehenderit exercitationem ad id eaque doloribus incidunt expedita iusto. Nulla voluptatibus iure nemo perferendis sed aut minus adipisci voluptate? </p>
                         <h1 className='font-bold text-white mt-4'>Emama Hart</h1>
@@ -50,7 +50,7 @@ function Testimonials() {
                 </div>
             </div>
             <div className="p-[20px]">
-                <div className="relative mt-[50px] bg-[#d326ed] pt-[60px] pb-[30px] px-[30px] rounded-[10px]">
+                <div className="relative mt-[50px] bg-[#d326ed] pt-[60px] pb-[30px] px-[30px] rounded-[10px] hover:bg-black duration-500">
                     <div className="">
                         <p className='font-thin text-white'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, nisi provident reprehenderit exercitationem ad id eaque doloribus incidunt expedita iusto. Nulla voluptatibus iure nemo perferendis sed aut minus adipisci voluptate? </p>
                         <h1 className='font-bold text-white mt-4'>Emama Hart</h1>
@@ -68,7 +68,7 @@ function Testimonials() {
                 </div>
             </div>
             <div className="p-[20px]">
-                <div className="relative mt-[50px] bg-[#d326ed] pt-[60px] pb-[30px] px-[30px] rounded-[10px]">
+                <div className="relative mt-[50px] bg-[#d326ed] pt-[60px] pb-[30px] px-[30px] rounded-[10px] hover:bg-black duration-500">
                     <div className="">
                         <p className='font-thin text-white'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, nisi provident reprehenderit exercitationem ad id eaque doloribus incidunt expedita iusto. Nulla voluptatibus iure nemo perferendis sed aut minus adipisci voluptate? </p>
                         <h1 className='font-bold text-white mt-4'>Emama Hart</h1>
@@ -86,7 +86,7 @@ function Testimonials() {
                 </div>
             </div>
             <div className="p-[20px]">
-                <div className="relative mt-[50px] bg-[#d326ed] pt-[60px] pb-[30px] px-[30px] rounded-[10px]">
+                <div className="relative mt-[50px] bg-[#d326ed] pt-[60px] pb-[30px] px-[30px] rounded-[10px] hover:bg-black duration-500">
                     <div className="">
                         <p className='font-thin text-white'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, nisi provident reprehenderit exercitationem ad id eaque doloribus incidunt expedita iusto. Nulla voluptatibus iure nemo perferendis sed aut minus adipisci voluptate? </p>
                         <h1 className='font-bold text-white mt-4'>Emama Hart</h1>

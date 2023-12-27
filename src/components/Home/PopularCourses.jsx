@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 
 function PopularCourses() {
@@ -11,7 +12,9 @@ function PopularCourses() {
             <p className="font-thin text-gray-900">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus nesciunt minus aliquam, minima, error omnis voluptates ipsa sint accusantium quaerat dicta soluta eius qui, laudantium magni amet consequatur cupiditate quod?</p>
         </div>
         <div className="md:w-[20%] md:h-auto flex md:items-center md:justify-center">
-            <button className="font-semibold mt-5 md:mt-0 py-2 px-4 rounded-[20px] bg-[#d326ed] text-[15px] text-white">VIEW ALL COURSES</button>
+          <Link to={'/courses'}>
+            <button className="font-semibold mt-5 md:mt-0 py-2 px-4 rounded-[20px] bg-[#d326ed] text-[15px] text-white hover:bg-black duration-500">VIEW ALL COURSES</button>
+          </Link>
         </div>
     </div>
   )

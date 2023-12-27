@@ -42,7 +42,7 @@ function NavBar() {
 
         <MenuItems windowsScreen={windowsScreen} navToggle={navToggle} navbarScrolled={navbarScrolled} handleNavLinkClick={handleNavLinkClick}/>
         <div className=" h-full flex md:hidden items-center justify-end pl-0 ">
-          <MenuUnfoldOutlined className={`${navToggle ? 'border border-white ' :''} text-white text-2xl font-bold items-center flex p-2 rounded-[5px] mr-4 bg-[#d326ed]`} onClick={toggling} />
+          <MenuUnfoldOutlined className={`${navToggle ? 'border border-white ' :''} text-white text-2xl font-bold items-center flex p-2 rounded-[5px] mr-4 bg-[#d326ed] hover:bg-black duration-500`} onClick={toggling} />
         </div>
       </div>
     </header>

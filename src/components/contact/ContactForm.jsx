@@ -83,7 +83,7 @@ function ContactForm() {
             <input
               type="submit"
               value="SEND MESSAGE"
-              className="py-[10px] px-[15px] rounded-[20px] bg-[#d326ed] my-[5px] text-white font-semibold "
+              className="py-[10px] px-[15px] rounded-[20px] bg-[#d326ed] my-[5px] text-white font-semibold hover:bg-black duration-500"
             />
           </div>
         </div>

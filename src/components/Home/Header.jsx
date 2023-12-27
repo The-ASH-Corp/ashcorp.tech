@@ -2,6 +2,7 @@ import { Parallax } from "react-parallax";
 import { PlayCircleFilled } from "@ant-design/icons";
 import HeaderBackground from "../../assets/bg_img/bussinus_img.jpg";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -37,9 +38,11 @@ function Header() {
                   </p>
                 </div>
                 <div className="md:mb-10">
+                  <Link to={'/courses'}>
                   <button className="bg-[#d326ed] py-2 text-[15px] text-white px-6 rounded-[20px] hover:bg-black duration-500">
                     START COURSE
                   </button>
+                  </Link>
                 </div>
               </div>
             </motion.div>

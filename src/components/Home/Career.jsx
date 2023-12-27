@@ -61,7 +61,7 @@ function Career() {
                 <h1 className="font-semibold text-[30px] my-[5px]">Boost Your Career by Learning Skills in High Demand</h1>
 
                 <Link to={'/courses'}>
-                    <button className="bg-[#d326ed] py-[5px] px-[10px] flex space-x-1 text-[15px] text-white items-center rounded-[20px]">
+                    <button className="bg-[#d326ed] py-[5px] px-[10px] flex space-x-1 text-[15px] text-white items-center rounded-[20px] hover:bg-black duration-500">
                         <CaretRightFilled className="text-white"/>
                         GET STARTED
                     </button>
