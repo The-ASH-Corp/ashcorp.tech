@@ -23,18 +23,15 @@ function Header() {
                 </div>
                 <div className="mb-10">
                   <h1 className="font-bold text-5xl md:text-7xl text-white">
-                    Education Opens
+                    Enpowering Minds
                   </h1>
                   <h1 className="font-bold text-5xl md:text-7xl text-white">
-                    up the Mind
+                    In The Digital Age
                   </h1>
                 </div>
                 <div className="mb-10 max-w-[600px]">
                   <p className="text-white">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Officia voluptates quibusdam maiores iusto culpa eum vel
-                    fuga, facere odio incidunt saepe inventore nam perferendis
-                    odit? Quis nesciunt voluptas excepturi voluptatem.
+                  Elevating Education and Crafting Code for a Brighter Digital Tomorrow - Where Learning Meets Innovation, Our Online Classes and Software Development Solutions Are Pioneering Progress.
                   </p>
                 </div>
                 <div className="md:mb-10">

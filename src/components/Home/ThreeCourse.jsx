@@ -11,7 +11,7 @@ function ThreeCourse() {
             <div className="md:h-[450px] shadow-2xl rounded-[10px] overflow-hidden transform transition duration-500 hover:scale-[1.1]">
                 <img src={FrontEndImg} alt="" className="w-full h-[225px]" />
                 <h1 className="text-[30px] font-bold w-full text-center py-5">Frontend Development</h1>
-                <p className="px-[15px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p className="px-[15px] text-center">Master the in-demand skills shaping the future</p>
                 <Link to={"/courses"}>
                 <div className="w-full flex justify-center md:mt-[35px] my-5">
                 <motion.button
@@ -24,7 +24,7 @@ function ThreeCourse() {
             <div className="md:h-[450px] shadow-2xl rounded-[10px] overflow-hidden transform transition duration-500 hover:scale-[1.1]">
                 <img src={BackEndImg} alt="" className="w-full h-[225px]" />
                 <h1 className="text-[30px] font-bold w-full text-center py-5 p-[2px]"> Backend Development</h1>
-                <p className="px-[15px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p className="px-[15px] text-center">Master the in-demand skills shaping the future</p>
                 <Link to={"/courses"}>
                 <div className="w-full flex justify-center md:mt-[35px] my-5">
                 <motion.button
@@ -37,7 +37,7 @@ function ThreeCourse() {
             <div className="md:h-[450px] shadow-2xl rounded-[10px] overflow-hidden transform transition duration-500 hover:scale-[1.1]">
                 <img src={FullStackImg} alt="" className="w-full h-[225px]" />
                 <h1 className="text-[30px] font-bold w-full text-center py-5">Full Stack Development</h1>
-                <p className="px-[15px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p className="px-[15px] text-center">Master the in-demand skills shaping the future</p>
                 <Link to={"/courses"}>
                 <div className="w-full flex justify-center md:mt-[35px] my-5">
                 <motion.button

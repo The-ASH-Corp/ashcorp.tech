@@ -21,10 +21,10 @@ function CourseHeader() {
                 </div>
                 <div className="mb-10 max-w-[600px]">
                   <p className="text-white">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Officia voluptates quibusdam maiores iusto culpa eum vel
-                    fuga, facere odio incidunt saepe inventore nam perferendis
-                    odit? Quis nesciunt voluptas excepturi voluptatem.
+                  Unlock Your Potential: Explore Comprehensive Online Courses
+                    Tailored for Success in Today's Dynamic Industries. Elevate
+                    Your Skills and Career with Our Cutting-Edge Learning
+                    Experience
                   </p>
                 </div>
               </motion.div>

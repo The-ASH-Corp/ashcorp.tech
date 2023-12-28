@@ -7,29 +7,23 @@ function WhoWeAre() {
       </div>
       <div className="flex-1 px-[20px]">
         <h1 className="font-semibold text-[30px]">
-          "It is impossible for a man to learn what he  thinks he already
-          knows."
+          "It is impossible for a man to learn what he thinks he already knows."
         </h1>
-        <p className="my-[15px]">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut deleniti
-          odio, ipsum, ratione dignissimos labore provident pariatur, numquam
-          accusamus facere natus modi maxime{" "}
-        </p>
+        
         <p className="">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta
-          ratione labore vero, et, eum autem quibusdam itaque libero doloribus
-          eius inventore distinctio? Dicta doloribus ex deleniti et vero esse
-          accusamus.lor Lorem ipsum dolor, sit amet consectetur adipisicing
-          elit. Eos exercitationem, maxime dolorem excepturi neque alias natus
-          error dolorum, fugiat perferendis, aperiam delectus! Sunt ducimus
-          officia alias cupiditate id laborum similique. Lorem ipsum dolor sit
-          amet consectetur adipisicing elit. Mollitia excepturi nemo incidunt
-          dicta id vel odio quia, odit provident corporis iusto placeat alias?
-          Eligendi accusamus minima similique, pariatur obcaecati eveniet.
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-          ipsa, praesentium provident cumque voluptas sequi porro ut quibusdam
-          accusamus officia officiis tempore, doloribus repellendus fugit
-          voluptatibus corporis ab sunt eveniet.
+          At our core, we are an innovative online course institution with a
+          vision that transcends traditional boundaries of education. Committed
+          to empowering individuals globally, our institution stands as a beacon
+          of digital learning, redefining the educational landscape. We envision
+          a future where access to high-quality courses is not constrained by
+          geographical or logistical barriers. Our commitment to excellence is
+          reflected in our meticulously crafted online programs, designed to
+          equip learners with the skills demanded by today's dynamic industries.
+          By embracing technology, fostering collaboration, and providing a
+          flexible and accessible learning environment, we are not just an
+          institution but a catalyst for individual and professional growth.
+          Join us on this transformative journey, where education knows no
+          bounds, and learners emerge as empowered leaders in their fields
         </p>
       </div>
     </div>

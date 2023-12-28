@@ -21,29 +21,47 @@ function ContactForm() {
           officia voluptate placeat provident voluptas odit.
         </p>
         <div className="my-[20px]">
-            <div className="flex my-[10px]">
-                <div className=" h-full items-center mt-[5px]"><FaLocationDot /></div>
-                <div className="pl-[10px]">123 Fifth Avenue, New York, NY 10160</div>
+          <div className="flex my-[10px]">
+            <div className=" h-full items-center mt-[5px]">
+              <FaLocationDot />
             </div>
-            <div className="flex my-[10px]">
-                <div className=" h-full items-center mt-[5px]"><IoIosMail /></div>
-                <div className="pl-[10px]">contact@example.com</div>
+            <div className="pl-[10px]">
+              123 Fifth Avenue, New York, NY 10160
             </div>
-            <div className="flex my-[10px]">
-                <div className=" h-full items-center mt-[5px]"><FaPhoneAlt /></div>
-                <div className="pl-[10px]">1234567890</div>
+          </div>
+          <div className="flex my-[10px]">
+            <div className=" h-full items-center mt-[5px]">
+              <IoIosMail />
             </div>
+            <div className="pl-[10px]">contact@example.com</div>
+          </div>
+          <div className="flex my-[10px]">
+            <div className=" h-full items-center mt-[5px]">
+              <FaPhoneAlt />
+            </div>
+            <div className="pl-[10px]">1234567890</div>
+          </div>
         </div>
         <div className="flex my-[20px]">
-            <div className=""><h1>Keep in Touch</h1></div>
-            <div className="flex h-full  items-center space-x-5 px-[10px] pt-[5px]">
+          <div className="">
+            <h1>Keep in Touch</h1>
+          </div>
+          <div className="flex h-full  items-center space-x-5 px-[10px] pt-[5px]">
             <FaInstagramSquare />
             <FaWhatsappSquare />
             <FaFacebookSquare />
-            </div>
+          </div>
         </div>
         <div className="">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.57689648295!2d75.97948457520428!3d10.995274389167067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7b3ee33351edf%3A0x47eff5071e2c191d!2sRootsys%20International!5e0!3m2!1sen!2sin!4v1703222234595!5m2!1sen!2sin" width="500" height="200" style={{border:0}} allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.57689648295!2d75.97948457520428!3d10.995274389167067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7b3ee33351edf%3A0x47eff5071e2c191d!2sRootsys%20International!5e0!3m2!1sen!2sin!4v1703222234595!5m2!1sen!2sin"
+            width="500"
+            height="200"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
         </div>
       </div>
       <div className="">
@@ -51,8 +69,8 @@ function ContactForm() {
           <div className="">
             <h1 className="font-bold text-[25px] my-[10px]">Have Questions?</h1>
             <p className="font-thin my-[10px]">
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Feel free to reach out! We're here to help and answer any
+              questions you may have
             </p>
             <input
               type="text"

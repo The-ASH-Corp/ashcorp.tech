@@ -19,9 +19,9 @@ function SmallParallex() {
               <div className="px-[25px]">
                 <h1 className="text-white font-bold text-[25px]">Learn From Industry Leaders</h1>
                 <p className="text-white font-light">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus a minus nulla libero, repudiandae rem, labore
-                  saepe placeat sequi obcaecati neque,
+                Our organization is guided by the expertise of the best industry
+              leaders, driving innovation and setting new benchmarks for
+              success
                 </p>
               </div>
             </div>
@@ -32,9 +32,9 @@ function SmallParallex() {
               <div className="px-[25px]">
                 <h1 className="text-white font-bold text-[25px]">Learn at Your Own Pace</h1>
                 <p className="text-white font-light">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus a minus nulla libero, repudiandae rem, labore
-                  saepe placeat sequi obcaecati neque,
+                Empower your education journey with the flexibility to learn
+              online at your own pace, tailoring your study experience to match
+              your unique preferences and schedule
                 </p>
               </div>
             </div>
@@ -45,9 +45,9 @@ function SmallParallex() {
               <div className="px-[25px]">
                 <h1 className="text-white font-bold text-[25px]">Professional Certification</h1>
                 <p className="text-white font-light">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Necessitatibus a minus nulla libero, repudiandae rem, labore
-                  saepe placeat sequi obcaecati neque,
+                Attain industry recognition and elevate your career with our
+              professional certification programs, designed to validate and
+              enhance your expertise in a competitive job marke
                 </p>
               </div>
             </div>

@@ -27,10 +27,11 @@ function AboutHeader() {
                   transition={{ duration: 1, ease: "easeOut" }}
                 >
                   <p className="text-white">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Officia voluptates quibusdam maiores iusto culpa eum vel
-                    fuga, facere odio incidunt saepe inventore nam perferendis
-                    odit? Quis nesciunt voluptas excepturi voluptatem.
+                    We are a leading IT solutions provider, specializing in
+                    mobile and web app development, as well as offering
+                    comprehensive PR services. Our dedicated team is committed
+                    to enhancing your digital presence and boosting your brand's
+                    impact.
                   </p>
                 </motion.div>
               </div>
