@@ -61,9 +61,9 @@ function App() {
           <ArrowUpOutlined className="text-white" />
         </div>
       )}
-      <div className="bg-[#d326ed] fixed w-[50px] h-[50px] text-center flex items-center justify-center rounded-full right-5 bottom-10 hover:bg-black duration-500" onClick={handleScrollToTop}>
-      <FaWhatsapp className="text-white h-[30px] w-[30px]"/>
-        </div>
+      <a className="bg-[#d326ed] fixed w-[50px] h-[50px] text-center flex items-center justify-center rounded-full right-5 bottom-10 hover:bg-black duration-500" href={'https://api.whatsapp.com/send?phone=+918921365750&text=HAI'} target="_blank">
+      <FaWhatsapp className="text-white h-[30px] w-[30px]" />
+        </a>
     </div>
     </QueryClientProvider>
   );

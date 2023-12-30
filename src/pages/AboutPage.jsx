@@ -1,6 +1,6 @@
 import AboutHeader from "../components/About/AboutHeader";
 import AllAbout from "../components/About/AllAbout";
-import Founder from "../components/About/Founder";
+// import Founder from "../components/About/Founder";
 import SmallParallex from "../components/About/SmallParallex";
 import WhoWeAre from "../components/About/WhoWeAre";
 
@@ -11,7 +11,7 @@ function AboutPage() {
     <div className="relative">
       <AboutHeader />
       <AllAbout/>
-      <Founder/>
+      {/* <Founder/> */}
       <WhoWeAre/>
       <SmallParallex/>
      

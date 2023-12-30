@@ -12,6 +12,7 @@ import ThreeCourse from "../components/Home/ThreeCourse";
 import Feature from "../components/Home/Feature";
 import Testimonials from "../components/Home/Testimonials";
 import Career from "../components/Home/Career";
+import Certifications from "../components/Home/Certifications";
 
 export default function HomePage() {
   return (
@@ -56,7 +57,7 @@ export default function HomePage() {
       <Career/>
       <Feature/>
       <Testimonials/>
-
+      <Certifications/>
     </div>
   );
 }
