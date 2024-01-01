@@ -54,7 +54,7 @@ function CourseCards() {
                 className="w-[95%] py-2 bg-[#d326ed] text-white rounded-md"
                 onClick={handleModalOpen}
               >
-                duration: 30 days
+                duration: {c.metadata[0]?.duration}
               </motion.button>
             </div>
           </div>

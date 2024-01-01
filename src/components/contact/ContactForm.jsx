@@ -4,8 +4,65 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
+import { useEffect, useState } from "react";
+import { Modal } from "antd";
+import { CheckCircleFilled } from "@ant-design/icons";
 
 function ContactForm() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [buttonValue, setButtonValue] = useState("SEND MESSAGE");
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    massage: "",
+  });
+
+ 
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  useEffect(() => {
+    if (isModalOpen) {
+      setTimeout(() => {
+        setIsModalOpen(false);
+        setButtonValue("SEND MESSAGE");
+        window.location.reload();
+      }, 2000);
+    }
+  }, [isModalOpen]);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setButtonValue("Sending . . .")
+    const form = new FormData();
+    Object.entries(formData).forEach(([key, value]) => {
+      form.append(key, value);
+    });
+
+    try {
+      const response = await fetch(
+        "https://script.google.com/macros/s/AKfycbzQubW1j3bTbvR-aM9X7hq5D_RPj-g3xsi9s16BVyUedzM74KHTtrc-7Sbo1iWruqvN/exec",
+        {
+          method: "POST",
+          body: form,
+        }
+      );
+
+      if (response.ok) {
+        setIsModalOpen(true);
+      } else {
+        // Handle error, e.g., show an error message
+        console.error("Form submission failed");
+      }
+    } catch (error) {
+      console.error("Error submitting form", error);
+    }
+  };
+
   return (
     <div className="w-[90%] my-[50px] mx-auto gap-5 md:w-[80%] grid grid-flow-row grid-cols-1 md:grid-cols-2">
       <div className="">
@@ -65,7 +122,10 @@ function ContactForm() {
         </div>
       </div>
       <div className="">
-        <div className="bg-white shadow-2xl p-[40px] rounded-[10px]">
+        <form
+          className="bg-white shadow-2xl p-[40px] rounded-[10px]"
+          onSubmit={handleSubmit}
+        >
           <div className="">
             <h1 className="font-bold text-[25px] my-[10px]">Have Questions?</h1>
             <p className="font-thin my-[10px]">
@@ -77,35 +137,58 @@ function ContactForm() {
               name="name"
               placeholder="Name"
               className="bg-gray-200 focus:outline-none border-gray-300 border-[1px] py-[15px] px-[20px] w-[100%] my-[10px]"
+              value={formData.name}
+              onChange={handleChange}
             />
             <input
               type="email"
               name="email"
               placeholder="Email Address"
               className="bg-gray-200 focus:outline-none border-gray-300 border-[1px] py-[15px] px-[20px] w-[100%] my-[10px]"
+              value={formData.email}
+              onChange={handleChange}
             />
             <input
               type="text"
               name="subject"
               placeholder="Subject"
               className="bg-gray-200 focus:outline-none border-gray-300 border-[1px] py-[15px] px-[20px] w-[100%] my-[10px]"
+              value={formData.subject}
+              onChange={handleChange}
             />
+
             <textarea
+              onChange={handleChange}
+              placeholder="Message"
+              className="bg-gray-200 
+            
+            focus:outline-none border-gray-300 border-[1px] py-[15px] px-[20px] w-[100%] my-[10px]"
               name="massage"
               id=""
-              placeholder="your Message"
               cols="30"
               rows="5"
-              className="bg-gray-200 focus:outline-none border-gray-300 border-[1px] py-[15px] px-[20px] w-[100%] my-[10px]"
-            ></textarea>
+            >
+              {formData.message}
+            </textarea>
+
             <input
               type="submit"
-              value="SEND MESSAGE"
+              value={buttonValue}
+              disabled={buttonValue === "sending..."}
               className="py-[10px] px-[15px] rounded-[20px] bg-[#d326ed] my-[5px] text-white font-semibold hover:bg-black duration-500"
             />
           </div>
-        </div>
+        </form>
       </div>
+      <Modal
+        open={isModalOpen}
+        footer={null}
+        onCancel={() => setIsModalOpen(false)}
+        width={"200px"}
+      >
+        <CheckCircleFilled className="text-green-600 " />{" "}
+        <span className="ml-[10px] font-semibold">Success</span>
+      </Modal>
     </div>
   );
 }
