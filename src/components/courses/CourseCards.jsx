@@ -4,6 +4,7 @@ import { Modal } from "antd";
 import { useQuery } from "react-query";
 import FrontEndImg from "../../assets/images/courseImges/1_i3laWIzy2jaemiCURVPrMg.jpg";
 import { motion } from "framer-motion";
+import MocupImg from "../../assets/images/courseImges/Untitled-1.png"
 
 function CourseCards() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -66,7 +67,7 @@ function CourseCards() {
         footer={null}
         onCancel={() => setIsModalOpen(false)}
       >
-        content
+        <img src={MocupImg} alt="" />
       </Modal>
     </div>
   );
