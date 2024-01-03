@@ -31,7 +31,8 @@ function CourseCards() {
 
       <div className=" md:w-[80%] w-[90%] grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto mb-[50px]">
         {course.map((c) => (
-          <div
+          <motion.div
+          layout
             key={c.id}
             className=" mt-[50px] shadow-2xl rounded-[10px] overflow-hidden transform transition duration-500 hover:scale-[1.1]"
           >
@@ -58,7 +59,7 @@ function CourseCards() {
                 duration: {c.metadata[0]?.duration}
               </motion.button>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
 
