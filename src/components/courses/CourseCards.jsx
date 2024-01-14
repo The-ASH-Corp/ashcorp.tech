@@ -21,15 +21,16 @@ function CourseCards() {
   if (error) return "An error has occurred: " + error.message;
   console.log({ course });
 
+  if (isLoading) {
+    return (
+      <p className="text-2xl font-semibold mt-[100px] text-center">
+        Loading courses...
+      </p>
+    );
+  }
   return (
     <div className="w-full mt-[100px]">
-      {isLoading && (
-        <p className="text-2xl font-semibold mt-[100px] text-center">
-          Loading courses...
-        </p>
-      )}
-
-      {/* <div className=" md:w-[80%] w-[90%] grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto mb-[50px]">
+      <div className=" md:w-[80%] w-[90%] grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto mb-[50px]">
         {course?.map((c) => (
           <motion.div
             layout
@@ -61,7 +62,7 @@ function CourseCards() {
             </div>
           </motion.div>
         ))}
-      </div> */}
+      </div>
 
       <Modal
         open={isModalOpen}
