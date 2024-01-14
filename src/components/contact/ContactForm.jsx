@@ -18,8 +18,6 @@ function ContactForm() {
     massage: "",
   });
 
- 
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -37,7 +35,7 @@ function ContactForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setButtonValue("Sending . . .")
+    setButtonValue("Sending . . .");
     const form = new FormData();
     Object.entries(formData).forEach(([key, value]) => {
       form.append(key, value);
@@ -83,20 +81,20 @@ function ContactForm() {
               <FaLocationDot />
             </div>
             <div className="pl-[10px]">
-              123 Fifth Avenue, New York, NY 10160
+              3rd floor, OPS Mall, Vailathur,Tirur
             </div>
           </div>
           <div className="flex my-[10px]">
             <div className=" h-full items-center mt-[5px]">
               <IoIosMail />
             </div>
-            <div className="pl-[10px]">contact@example.com</div>
+            <div className="pl-[10px]">ashcorp.tech@gmail.com</div>
           </div>
           <div className="flex my-[10px]">
             <div className=" h-full items-center mt-[5px]">
               <FaPhoneAlt />
             </div>
-            <div className="pl-[10px]">1234567890</div>
+            <div className="pl-[10px]">+91 8921365750</div>
           </div>
         </div>
         <div className="flex my-[20px]">
@@ -111,7 +109,7 @@ function ContactForm() {
         </div>
         <div className="">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.57689648295!2d75.97948457520428!3d10.995274389167067!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7b3ee33351edf%3A0x47eff5071e2c191d!2sRootsys%20International!5e0!3m2!1sen!2sin!4v1703222234595!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.1370820568354!2d75.9439949752037!3d10.95301608920672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7b34a813b9915%3A0x58c71fcb8ee81aca!2sOPS%20MALL!5e0!3m2!1sen!2sin!4v1704342147484!5m2!1sen!2sin"
             width="500"
             height="200"
             style={{ border: 0 }}

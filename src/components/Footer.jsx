@@ -57,11 +57,11 @@ function Footer() {
               <h1 className="font-bold text-[20px] my-2">Contact Info</h1>
               <ul>
                 <li className="font-bold">Address</li>
-                <li>123 Fifth Avenue, New York, NY 10160</li>
+                <li>3rd floor, OPS Mall, Vailathur,Tirur</li>
                 <li className="font-bold">Phone</li>
-                <li>929-242-6868</li>
+                <li>+91 8921365750</li>
                 <li className="font-bold">Email</li>
-                <li>contact@info.com</li>
+                <li>ashcorp.tech@gmail.com</li>
               </ul>
             </div>
           </div>
