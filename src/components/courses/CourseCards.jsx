@@ -28,6 +28,7 @@ function CourseCards() {
       </p>
     );
   }
+  
   return (
     <div className="w-full mt-[100px]">
       <div className=" md:w-[80%] w-[90%] grid grid-flow-row grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 mx-auto mb-[50px]">

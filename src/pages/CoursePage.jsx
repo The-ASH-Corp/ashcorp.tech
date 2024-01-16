@@ -7,7 +7,7 @@ function CoursePage() {
     <div>
       <CourseHeader />
       <AboutCourses />
-      <CourseCards />
+      {/* <CourseCards /> */}
     </div>
   );
 }
